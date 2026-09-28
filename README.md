@@ -1,6 +1,6 @@
 <div align="center">
 
-# 황대겸 · Daegyeom Hwang
+# 황대겸 · @unknownamed
 
 창원대학교에서 컴퓨터공학을 공부하고 있습니다.  
 아이디어가 실제 사용 흐름이 되도록, 팀과 함께 화면과 API를 다듬습니다.
