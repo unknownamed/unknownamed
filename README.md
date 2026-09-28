@@ -18,13 +18,13 @@
 
 ## 함께 만든 주요 프로젝트
 
-| 프로젝트 | 서비스 | 제가 기여한 부분 |
-| --- | --- | --- |
-| [W.A.V.E](https://github.com/jeongiryang/wave-barrier-free-gyeongnam) | 공공데이터 기반 경남 무장애 여행 플래너 | [여행 도구 UI 연결](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/pull/742), [시연 일정과 여행집](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/pull/752) |
-| [사각사각 · Smart Edu Platform](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform) | 웹·모바일 학습 관리 앱 | [접근성과 일정 UI/UX 개선](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/pull/209) |
-| [KG Ontology Decision Framework](https://github.com/jeongiryang/kg-ontology-decision-framework) | 지식그래프 기반 설명 가능한 의사결정 지원 | [근거·탐색 그래프 UX](https://github.com/jeongiryang/kg-ontology-decision-framework/pull/38), [근거 기반 대화 화면](https://github.com/jeongiryang/kg-ontology-decision-framework/pull/14) |
-| [Boothlock Server](https://github.com/hong0527/boothlock-server) | 부스 운영을 위한 서버 | [계정·부스 도메인](https://github.com/hong0527/boothlock-server/pull/1), [부스 설정 API](https://github.com/hong0527/boothlock-server/pull/6) |
-| [Living Visetos](https://github.com/woohyun212/living-visetos) | 관객의 입력으로 패턴을 만드는 키오스크 | [개인화 패턴 엔진](https://github.com/woohyun212/living-visetos/pull/2) |
+| 프로젝트 | 기여 예시 |
+| --- | --- |
+| [W.A.V.E](https://github.com/jeongiryang/wave-barrier-free-gyeongnam)<br><sub>경남 무장애 여행 플래너</sub> | [여행 도구 UI 연결](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/pull/742) · [시연 일정과 여행집](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/pull/752) |
+| [사각사각](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform)<br><sub>웹·모바일 학습 관리 앱</sub> | [접근성과 일정 UI/UX 개선](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/pull/209) |
+| [KG Decision Framework](https://github.com/jeongiryang/kg-ontology-decision-framework)<br><sub>지식그래프 기반 의사결정 지원</sub> | [근거·탐색 그래프 UX](https://github.com/jeongiryang/kg-ontology-decision-framework/pull/38) · [근거 기반 대화 화면](https://github.com/jeongiryang/kg-ontology-decision-framework/pull/14) |
+| [Boothlock Server](https://github.com/hong0527/boothlock-server)<br><sub>부스 운영 서버</sub> | [계정·부스 도메인](https://github.com/hong0527/boothlock-server/pull/1) · [부스 설정 API](https://github.com/hong0527/boothlock-server/pull/6) |
+| [Living Visetos](https://github.com/woohyun212/living-visetos)<br><sub>개인화 패턴 키오스크</sub> | [개인화 패턴 엔진](https://github.com/woohyun212/living-visetos/pull/2) |
 
 ### 다른 공개 협업 저장소
 
