@@ -1,24 +1,40 @@
-## 함께 만든 프로젝트
+## 프로젝트 포트폴리오
 
-팀 프로젝트에서 참여한 작업을 정리했습니다. 프로젝트 이름은 팀의 원본 저장소, 작업 내용은 제가 작성한 PR로 연결됩니다.
+팀 프로젝트에서 직접 맡은 작업을 원본 저장소와 PR·커밋으로 정리했습니다. [전체 저장소](https://github.com/unknownamed?tab=repositories) · [작성한 PR](https://github.com/pulls?q=is%3Apr+author%3Aunknownamed)
 
-- **[W.A.V.E](https://github.com/jeongiryang/wave-barrier-free-gyeongnam)** — 경남 무장애 여행 플래너 · [여행 도구 화면 연결](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/pull/742) · [시연 일정과 여행집 연결](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/pull/752)
+### 대표 프로젝트
 
-- **[사각사각](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform)** — 웹·모바일 학습 관리 앱 · [접근성과 일정 UI/UX 개선](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/pull/209)
+#### [W.A.V.E](https://github.com/jeongiryang/wave-barrier-free-gyeongnam) · 경남 무장애 여행 플래너
 
-- **[KG Decision Framework](https://github.com/jeongiryang/kg-ontology-decision-framework)** — 지식그래프 기반 의사결정 지원 · [근거·탐색 그래프 UX 개선](https://github.com/jeongiryang/kg-ontology-decision-framework/pull/38) · [근거 기반 대화 화면](https://github.com/jeongiryang/kg-ontology-decision-framework/pull/14)
+- **목표:** 필요한 편의시설을 기준으로 여행지를 찾고 일정까지 계획하는 웹 서비스.
+- **맡은 작업:** AI 여행 도구 28개를 일정·지도·저장 화면에 연결하고, 화면을 오가도 입력과 여행 상태가 유지되도록 개선. 공개 시연용 일정과 여행집도 운영 DB에 연결.
+- **결과:** 로그인 없이 살펴볼 수 있는 예시 일정 5건과 사진 코스 예시 3건을 제공.
 
-- **[Boothlock Server](https://github.com/hong0527/boothlock-server)** — 부스 운영 서버 · [계정·부스 도메인 구현](https://github.com/hong0527/boothlock-server/pull/1) · [부스 설정 API 구현](https://github.com/hong0527/boothlock-server/pull/6)
+[서비스 보기](https://wave-barrier-free-gyeongnam.vercel.app/) · [일정 화면](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/blob/main/docs/screenshots/wave-planner-itinerary-mobile.png) · [여행 도구 연결 PR](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/pull/742) · [시연 자료 PR](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/pull/752)
 
-- **[Living Visetos](https://github.com/woohyun212/living-visetos)** — 개인화 패턴 키오스크 · [개인화 패턴 엔진 구현](https://github.com/woohyun212/living-visetos/pull/2)
+#### [KG Decision Framework](https://github.com/jeongiryang/kg-ontology-decision-framework) · 근거를 확인할 수 있는 AI 의사결정 지원
 
-## 다른 공개 협업 프로젝트
+- **목표:** 질문에 대한 답변과 그 근거가 된 데이터·문서를 함께 확인할 수 있는 화면.
+- **맡은 작업:** 실시간 대화 UI를 기존 질의 서비스에 연결하고 Citation과 PDF 근거 강조를 구현. 실제 조회 경로, 실행 정보, 결과 그래프를 서로 다른 시각화로 구분.
+- **결과:** 사용자가 답변 근거와 그래프 탐색 과정을 단계별로 확인할 수 있도록 구성.
 
-- [Diablo](https://github.com/Gongdang0314/diablo)
-- [Nuguri](https://github.com/Gongdang0314/nuguri)
-- [Makepic](https://github.com/Gongdang0314/makepic)
-- [Data Communication](https://github.com/He6venly/Data_Communication)
-- [Image Processing Team 7](https://github.com/Pongchi/ImageProcessing_Team7)
-- [2025 OSSW](https://github.com/Dicaf25/2025OSSW)
+[대화·근거 화면 PR](https://github.com/jeongiryang/kg-ontology-decision-framework/pull/14) · [그래프 UX PR](https://github.com/jeongiryang/kg-ontology-decision-framework/pull/38)
 
-[내 저장소 목록](https://github.com/unknownamed?tab=repositories) · [작성한 Pull Requests](https://github.com/pulls?q=is%3Apr+author%3Aunknownamed)
+#### [Boothlock Server](https://github.com/hong0527/boothlock-server) · 축제 부스 QR 주문 서버
+
+- **목표:** 짧은 기간 운영하는 축제 부스의 계정과 부스 설정을 관리하는 서버.
+- **맡은 작업:** 계정·부스 도메인과 저장 계층을 구현. 부스 설정 API에서 관리자와 직원의 변경 권한을 구분하고 계좌 변경 이력을 같은 트랜잭션에 기록.
+- **결과:** 관리자 변경은 허용하고 직원의 계좌 변경은 거부하는 권한 검증, 빈 요청 검증, 동일 값 재요청 처리를 확인.
+
+[계정·부스 도메인 PR](https://github.com/hong0527/boothlock-server/pull/1) · [부스 설정 API PR](https://github.com/hong0527/boothlock-server/pull/6)
+
+### 다른 협업 프로젝트
+
+- **[사각사각](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform)** — 학습 관리 앱의 글자 크기·읽어주기·음성 입력 적용 범위와 일정 UI 개선. [서비스 보기](https://sagaksagak-smart-edu.vercel.app/) · [PR](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/pull/209)
+- **[Living Visetos](https://github.com/woohyun212/living-visetos)** — 사용자 움직임·리듬·색상을 반영하는 개인화 패턴 생성 엔진 구현. [PR](https://github.com/woohyun212/living-visetos/pull/2)
+- **[Data Communication](https://github.com/He6venly/Data_Communication)** — 줄 단위 JSON 소켓 프로토콜, 노드별 로그, Worker 간 P2P 작업 전송 구현. [통신 PR](https://github.com/He6venly/Data_Communication/pull/1) · [P2P PR](https://github.com/He6venly/Data_Communication/pull/7)
+- **[Image Processing Team 7](https://github.com/Pongchi/ImageProcessing_Team7)** — 이미지 캡셔닝 모델 학습·평가 코드와 Attention 시각화 작업. [커밋](https://github.com/Pongchi/ImageProcessing_Team7/commit/de733d7d759147a2af515a2968b30650c12cb87d)
+- **[Nuguri](https://github.com/Gongdang0314/nuguri)** — C 콘솔 게임의 점프·충돌 오류와 Windows 화면 출력 성능 개선. [커밋](https://github.com/Gongdang0314/nuguri/commit/2d8d2cf05207a56ca1b51a0392ff4f824027607f)
+- **[Diablo](https://github.com/Gongdang0314/diablo)** — C 텍스트 게임의 퀘스트·입력 처리와 실행 오류 수정. [커밋 기록](https://github.com/Gongdang0314/diablo/commits/main/?author=unknownamed)
+- **[Makepic](https://github.com/Gongdang0314/makepic)** — 텍스트 기반 그림판 팀 과제.
+- **[2025 OSSW](https://github.com/Dicaf25/2025OSSW)** — 오픈소스 소프트웨어 수업의 Fork·PR 협업 실습. [PR](https://github.com/Dicaf25/2025OSSW/pull/4)
