@@ -1,6 +1,6 @@
 ## 프로젝트 포트폴리오
 
-팀 프로젝트에서 직접 맡은 작업을 원본 저장소와 PR·커밋으로 정리했습니다. [전체 저장소](https://github.com/unknownamed?tab=repositories) · [작성한 PR](https://github.com/pulls?q=is%3Apr+author%3Aunknownamed)
+공개 협업 프로젝트를 모았습니다. 역할과 결과는 확인 가능한 PR·커밋을 기준으로 적었습니다. [전체 저장소](https://github.com/unknownamed?tab=repositories) · [작성한 PR](https://github.com/pulls?q=is%3Apr+author%3Aunknownamed)
 
 ### 대표 프로젝트
 
