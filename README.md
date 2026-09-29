@@ -6,6 +6,8 @@
 
 #### [W.A.V.E](https://github.com/jeongiryang/wave-barrier-free-gyeongnam) · 경남 무장애 여행 플래너
 
+[![W.A.V.E 팀 서비스 소개 화면](https://raw.githubusercontent.com/jeongiryang/wave-barrier-free-gyeongnam/main/docs/screenshots/wave-landing-desktop.jpg)](https://wave-barrier-free-gyeongnam.vercel.app/)
+
 - **목표:** 필요한 편의시설을 기준으로 여행지를 찾고 일정까지 계획하는 웹 서비스.
 - **맡은 작업:** AI 여행 도구 28개를 일정·지도·저장 화면에 연결하고, 화면을 오가도 입력과 여행 상태가 유지되도록 개선. 공개 시연용 일정과 여행집도 운영 DB에 연결.
 - **결과:** 로그인 없이 살펴볼 수 있는 예시 일정 5건과 사진 코스 예시 3건을 제공.
@@ -13,6 +15,8 @@
 [서비스 보기](https://wave-barrier-free-gyeongnam.vercel.app/) · [일정 화면](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/blob/main/docs/screenshots/wave-planner-itinerary-mobile.png) · [여행 도구 연결 PR](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/pull/742) · [시연 자료 PR](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/pull/752)
 
 #### [KG Decision Framework](https://github.com/jeongiryang/kg-ontology-decision-framework) · 근거를 확인할 수 있는 AI 의사결정 지원
+
+[![KG Decision Framework 팀 프로젝트의 근거 대화 화면](https://raw.githubusercontent.com/jeongiryang/kg-ontology-decision-framework/main/docs/evaluations/screenshots/pr37-after-desktop-1920.png)](https://github.com/jeongiryang/kg-ontology-decision-framework/blob/main/docs/evaluations/screenshots/pr37-after-desktop-1920.png)
 
 - **목표:** 질문에 대한 답변과 그 근거가 된 데이터·문서를 함께 확인할 수 있는 화면.
 - **맡은 작업:** 실시간 대화 UI를 기존 질의 서비스에 연결하고 Citation과 PDF 근거 강조를 구현. 실제 조회 경로, 실행 정보, 결과 그래프를 서로 다른 시각화로 구분.
