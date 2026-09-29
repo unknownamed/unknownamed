@@ -16,7 +16,7 @@
 
 #### [KG Decision Framework](https://github.com/jeongiryang/kg-ontology-decision-framework) · 근거를 확인할 수 있는 AI 의사결정 지원
 
-[![KG Decision Framework 팀 프로젝트의 근거 대화 화면](https://raw.githubusercontent.com/jeongiryang/kg-ontology-decision-framework/main/docs/evaluations/screenshots/pr37-after-desktop-1920.png)](https://github.com/jeongiryang/kg-ontology-decision-framework/blob/main/docs/evaluations/screenshots/pr37-after-desktop-1920.png)
+[![KG Decision Framework 팀 프로젝트의 모바일 질문·답변 화면](https://raw.githubusercontent.com/jeongiryang/kg-ontology-decision-framework/main/docs/evaluations/screenshots/pr37-after-mobile-390.png)](https://github.com/jeongiryang/kg-ontology-decision-framework/blob/main/docs/evaluations/screenshots/pr37-after-mobile-390.png)
 
 - **목표:** 질문에 대한 답변과 그 근거가 된 데이터·문서를 함께 확인할 수 있는 화면.
 - **맡은 작업:** 실시간 대화 UI를 기존 질의 서비스에 연결하고 Citation과 PDF 근거 강조를 구현. 실제 조회 경로, 실행 정보, 결과 그래프를 서로 다른 시각화로 구분.
