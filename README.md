@@ -6,7 +6,9 @@
 
 #### [W.A.V.E](https://github.com/jeongiryang/wave-barrier-free-gyeongnam) · 경남 무장애 여행 플래너
 
-[![W.A.V.E 팀 서비스 소개 화면](https://raw.githubusercontent.com/jeongiryang/wave-barrier-free-gyeongnam/main/docs/screenshots/wave-landing-desktop.jpg)](https://wave-barrier-free-gyeongnam.vercel.app/)
+[![W.A.V.E 실제 배포 서비스의 여행 설계와 나루 시연](assets/wave-live-demo.gif)](https://wave-barrier-free-gyeongnam.vercel.app/)
+
+실제 배포 화면: 지역·편의 선택 → 편의 근거 확인 → 일정·지도 → 나루로 일정 수정.
 
 - **목표:** 필요한 편의시설을 기준으로 여행지를 찾고 일정까지 계획하는 웹 서비스.
 - **맡은 작업:** AI 여행 도구 28개를 일정·지도·저장 화면에 연결하고, 화면을 오가도 입력과 여행 상태가 유지되도록 개선. 공개 시연용 일정과 여행집도 운영 DB에 연결.
