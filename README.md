@@ -16,16 +16,6 @@
 
 [서비스 보기](https://wave-barrier-free-gyeongnam.vercel.app/) · [일정 화면](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/blob/main/docs/screenshots/wave-planner-itinerary-mobile.png) · [여행 도구 연결 PR](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/pull/742) · [시연 자료 PR](https://github.com/jeongiryang/wave-barrier-free-gyeongnam/pull/752)
 
-#### [KG Decision Framework](https://github.com/jeongiryang/kg-ontology-decision-framework) · 근거를 확인할 수 있는 AI 의사결정 지원
-
-[![KG Decision Framework의 데스크톱 질문·답변 및 근거 확인 화면](https://raw.githubusercontent.com/jeongiryang/kg-ontology-decision-framework/main/docs/evaluations/screenshots/pr37-after-desktop-1920.png)](https://github.com/jeongiryang/kg-ontology-decision-framework/blob/main/docs/evaluations/screenshots/pr37-after-desktop-1920.png)
-
-- **목표:** 질문에 대한 답변과 그 근거가 된 데이터·문서를 함께 확인할 수 있는 화면.
-- **맡은 작업:** 실시간 대화 UI를 기존 질의 서비스에 연결하고 Citation과 PDF 근거 강조를 구현. 실제 조회 경로, 실행 정보, 결과 그래프를 서로 다른 시각화로 구분.
-- **결과:** 사용자가 답변 근거와 그래프 탐색 과정을 단계별로 확인할 수 있도록 구성.
-
-[대화·근거 화면 PR](https://github.com/jeongiryang/kg-ontology-decision-framework/pull/14) · [그래프 UX PR](https://github.com/jeongiryang/kg-ontology-decision-framework/pull/38)
-
 #### [사각사각](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform) · 학습 관리 플랫폼의 접근성·일정 개선
 
 [![사각사각 팀 프로젝트의 화면 보기 설정: 글자 크기, 돋보기, 고대비, 읽어주기, 음성 입력](https://raw.githubusercontent.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/main/screenshots/accessibility-settings/20260603-020-accessibility-settings-screen.png)](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/blob/main/screenshots/accessibility-settings/20260603-020-accessibility-settings-screen.png)
@@ -57,6 +47,32 @@
 - **결과:** 관리자 변경은 허용하고 직원의 계좌 변경은 거부하는 권한 검증, 빈 요청 검증, 동일 값 재요청 처리를 확인.
 
 [계정·부스 도메인 PR](https://github.com/hong0527/boothlock-server/pull/1) · [부스 설정 API PR](https://github.com/hong0527/boothlock-server/pull/6)
+
+### 개인 프로젝트 · 실행 GIF
+
+#### [Focus Todos](https://github.com/unknownamed/Full-stack-CRUD-App-Deployment) · 풀스택 할 일 관리
+
+[![Focus Todos 실제 웹 화면: 할 일 추가, 완료 처리, 삭제](assets/focus-todos-demo.gif)](https://github.com/unknownamed/Full-stack-CRUD-App-Deployment)
+
+**React · Express · MongoDB** — 할 일 추가 → 목록 확인 → 완료 처리 → 삭제. 저장소의 프론트엔드·백엔드와 임시 MongoDB를 로컬에서 실행한 16:9 데모입니다. Antigravity AI 에이전트를 활용해 구현·배포한 개인 실습입니다.
+
+[프로젝트·실행 방법](https://github.com/unknownamed/Full-stack-CRUD-App-Deployment) · [구현 정리](https://github.com/unknownamed/Full-stack-CRUD-App-Deployment/blob/main/result.md)
+
+#### [C 테트리스](https://github.com/unknownamed/Tetris-implemented-in-C) · 콘솔 게임
+
+[![C 테트리스 실제 실행: 게임 시작, 이동과 회전, 즉시 낙하, 종료와 기록 조회](assets/tetris-console-demo.gif)](https://github.com/unknownamed/Tetris-implemented-in-C)
+
+**C · Windows 콘솔** — 게임 시작 → 이동·회전·즉시 낙하 → 종료 → 기록 조회. 원본 C 소스를 컴파일하고 실제 콘솔 출력과 키 입력을 16:9 GIF로 정리했습니다.
+
+[프로젝트·빌드 방법](https://github.com/unknownamed/Tetris-implemented-in-C) · [실행 환경](https://github.com/unknownamed/Tetris-implemented-in-C/blob/master/docs/demo-capture.md)
+
+#### [Workout REST API](https://github.com/unknownamed/Implementing-a-simple-REST-API-with-Spring-Boot) · 운동 기록 API
+
+[![Spring 운동 기록 API 실제 요청 응답: 생성, 목록 조회, 수정, 상세 조회와 삭제](assets/spring-workout-api-demo.gif)](https://github.com/unknownamed/Implementing-a-simple-REST-API-with-Spring-Boot)
+
+**Java 17 · Spring Boot · H2** — 기록 생성(201) → 조회 → 수정 → 삭제(204). JAR를 빌드·실행한 뒤 받은 실제 HTTP 요청·응답을 16:9 화면으로 구성했습니다.
+
+[프로젝트·API 명세](https://github.com/unknownamed/Implementing-a-simple-REST-API-with-Spring-Boot) · [빌드·실행 환경](https://github.com/unknownamed/Implementing-a-simple-REST-API-with-Spring-Boot/blob/main/docs/demo-capture.md)
 
 ### 다른 협업 프로젝트
 
