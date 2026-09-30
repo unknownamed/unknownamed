@@ -6,9 +6,9 @@
 
 #### [W.A.V.E](https://github.com/jeongiryang/wave-barrier-free-gyeongnam) · 경남 무장애 여행 플래너
 
-[![W.A.V.E 실제 배포 서비스의 여행 설계와 나루 시연](assets/wave-live-demo.gif)](https://wave-barrier-free-gyeongnam.vercel.app/)
+[![W.A.V.E 배포 서비스의 PC 화면: 편의시설 선택, 여행지 검색, 근거 확인, 일정과 나루](assets/wave-desktop-demo.gif)](https://wave-barrier-free-gyeongnam.vercel.app/)
 
-실제 배포 화면: 지역·편의 선택 → 편의 근거 확인 → 일정·지도 → 나루로 일정 수정.
+실제 배포 화면(16:9): 편의시설 선택 → 여행지·편의 근거 확인 → 일정·지도 → 나루의 일정 수정 도구.
 
 - **목표:** 필요한 편의시설을 기준으로 여행지를 찾고 일정까지 계획하는 웹 서비스.
 - **맡은 작업:** AI 여행 도구 28개를 일정·지도·저장 화면에 연결하고, 화면을 오가도 입력과 여행 상태가 유지되도록 개선. 공개 시연용 일정과 여행집도 운영 DB에 연결.
@@ -18,7 +18,7 @@
 
 #### [KG Decision Framework](https://github.com/jeongiryang/kg-ontology-decision-framework) · 근거를 확인할 수 있는 AI 의사결정 지원
 
-[![KG Decision Framework 팀 프로젝트의 모바일 질문·답변 화면](https://raw.githubusercontent.com/jeongiryang/kg-ontology-decision-framework/main/docs/evaluations/screenshots/pr37-after-mobile-390.png)](https://github.com/jeongiryang/kg-ontology-decision-framework/blob/main/docs/evaluations/screenshots/pr37-after-mobile-390.png)
+[![KG Decision Framework의 데스크톱 질문·답변 및 근거 확인 화면](https://raw.githubusercontent.com/jeongiryang/kg-ontology-decision-framework/main/docs/evaluations/screenshots/pr37-after-desktop-1920.png)](https://github.com/jeongiryang/kg-ontology-decision-framework/blob/main/docs/evaluations/screenshots/pr37-after-desktop-1920.png)
 
 - **목표:** 질문에 대한 답변과 그 근거가 된 데이터·문서를 함께 확인할 수 있는 화면.
 - **맡은 작업:** 실시간 대화 UI를 기존 질의 서비스에 연결하고 Citation과 PDF 근거 강조를 구현. 실제 조회 경로, 실행 정보, 결과 그래프를 서로 다른 시각화로 구분.
@@ -36,7 +36,19 @@
 - **맡은 작업:** 글자 크기·고대비·초등학생 친화 설정을 로그인 후 전체 화면에 적용. 본문 텍스트 읽어주기와 전역 `전체 읽기`를 정리하고, 주요 입력 화면으로 음성 입력 적용 범위를 확대. 일정 화면에 복습 알림 생성 패널을 배치.
 - **확인:** 접근성·일정 UI 개선 PR이 병합되었고, PR에 프론트엔드 검사와 테스트 결과가 기록되어 있습니다.
 
-[서비스 보기](https://sagaksagak-smart-edu.vercel.app/) · [접근성·일정 개선 PR](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/pull/209)
+[서비스 보기](https://sagaksagak-smart-edu.vercel.app/) · [팀 시연 영상](https://www.youtube.com/watch?v=_CGbutTUGhk&t=380s) · [접근성·일정 개선 PR](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/pull/209)
+
+#### [Living Visetos](https://github.com/woohyun212/living-visetos) · 개인화 패턴 키오스크
+
+[![Living Visetos 로컬 데모: 입력 색상 추출, 패턴 타일 생성, 3D 가방 적용](assets/living-visetos-pattern-demo.gif)](https://github.com/woohyun212/living-visetos)
+
+저장소의 모의 카메라 데모를 직접 실행한 PC 화면: 특징값·색상 → L1 패턴 타일 → 3D 가방 적용. 실제 관객용 무대는 세로형 키오스크입니다.
+
+- **목표:** 관객의 색·움직임·리듬으로 고유 패턴을 만들고 가방에 적용하는 체험.
+- **맡은 작업:** `FeatureSeed`를 받아 1024×1024 패턴 타일을 만드는 F-02 엔진 구현. 움직임에 따른 반복 밀도, 리듬에 따른 모티프 변화, 입력 색상과 세션별 변주를 반영.
+- **결과:** 같은 시드로 같은 패턴을 재현하고, 생성한 타일을 실루엣·가방 화면에 전달.
+
+[패턴 엔진 PR](https://github.com/woohyun212/living-visetos/pull/2) · [로컬 데모 실행 방법](https://github.com/woohyun212/living-visetos#실행)
 
 #### [Boothlock Server](https://github.com/hong0527/boothlock-server) · 축제 부스 QR 주문 서버
 
@@ -48,10 +60,8 @@
 
 ### 다른 협업 프로젝트
 
-- **[Living Visetos](https://github.com/woohyun212/living-visetos)** — 사용자 움직임·리듬·색상을 반영하는 개인화 패턴 생성 엔진 구현. [PR](https://github.com/woohyun212/living-visetos/pull/2)
 - **[Data Communication](https://github.com/He6venly/Data_Communication)** — 줄 단위 JSON 소켓 프로토콜, 노드별 로그, Worker 간 P2P 작업 전송 구현. [통신 PR](https://github.com/He6venly/Data_Communication/pull/1) · [P2P PR](https://github.com/He6venly/Data_Communication/pull/7)
 - **[Image Processing Team 7](https://github.com/Pongchi/ImageProcessing_Team7)** — 이미지 캡셔닝 모델 학습·평가 코드와 Attention 시각화 작업. [커밋](https://github.com/Pongchi/ImageProcessing_Team7/commit/de733d7d759147a2af515a2968b30650c12cb87d)
 - **[Nuguri](https://github.com/Gongdang0314/nuguri)** — C 콘솔 게임의 점프·충돌 오류와 Windows 화면 출력 성능 개선. [커밋](https://github.com/Gongdang0314/nuguri/commit/2d8d2cf05207a56ca1b51a0392ff4f824027607f)
 - **[Diablo](https://github.com/Gongdang0314/diablo)** — C 텍스트 게임의 퀘스트·입력 처리와 실행 오류 수정. [커밋 기록](https://github.com/Gongdang0314/diablo/commits/main/?author=unknownamed)
 - **[Makepic](https://github.com/Gongdang0314/makepic)** — 텍스트 기반 그림판 팀 과제.
-- **[2025 OSSW](https://github.com/Dicaf25/2025OSSW)** — 오픈소스 소프트웨어 수업의 Fork·PR 협업 실습. [PR](https://github.com/Dicaf25/2025OSSW/pull/4)
