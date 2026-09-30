@@ -50,14 +50,6 @@
 
 ### 개인 프로젝트 · 실행 GIF
 
-#### [Focus Todos](https://github.com/unknownamed/Full-stack-CRUD-App-Deployment) · 풀스택 할 일 관리
-
-[![Focus Todos 실제 웹 화면: 할 일 추가, 완료 처리, 삭제](assets/focus-todos-demo.gif)](https://github.com/unknownamed/Full-stack-CRUD-App-Deployment)
-
-**React · Express · MongoDB** — 할 일 추가 → 목록 확인 → 완료 처리 → 삭제. 저장소의 프론트엔드·백엔드와 임시 MongoDB를 로컬에서 실행한 16:9 데모입니다. Antigravity AI 에이전트를 활용해 구현·배포한 개인 실습입니다.
-
-[프로젝트·실행 방법](https://github.com/unknownamed/Full-stack-CRUD-App-Deployment) · [구현 정리](https://github.com/unknownamed/Full-stack-CRUD-App-Deployment/blob/main/result.md)
-
 #### [C 테트리스](https://github.com/unknownamed/Tetris-implemented-in-C) · 콘솔 게임
 
 [![C 테트리스 실제 실행: 게임 시작, 이동과 회전, 즉시 낙하, 종료와 기록 조회](assets/tetris-console-demo.gif)](https://github.com/unknownamed/Tetris-implemented-in-C)
