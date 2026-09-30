@@ -26,6 +26,18 @@
 
 [대화·근거 화면 PR](https://github.com/jeongiryang/kg-ontology-decision-framework/pull/14) · [그래프 UX PR](https://github.com/jeongiryang/kg-ontology-decision-framework/pull/38)
 
+#### [사각사각](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform) · 학습 관리 플랫폼의 접근성·일정 개선
+
+[![사각사각 팀 프로젝트의 화면 보기 설정: 글자 크기, 돋보기, 고대비, 읽어주기, 음성 입력](https://raw.githubusercontent.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/main/screenshots/accessibility-settings/20260603-020-accessibility-settings-screen.png)](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/blob/main/screenshots/accessibility-settings/20260603-020-accessibility-settings-screen.png)
+
+팀 프로젝트에 기록된 접근성 설정 화면. 글자 크기, 돋보기, 고대비, 읽어주기, 음성 입력을 한곳에서 확인할 수 있습니다.
+
+- **목표:** 학습 계획·기록·복습을 이어 주는 앱을 더 다양한 사용자가 편하게 사용할 수 있도록 개선.
+- **맡은 작업:** 글자 크기·고대비·초등학생 친화 설정을 로그인 후 전체 화면에 적용. 본문 텍스트 읽어주기와 전역 `전체 읽기`를 정리하고, 주요 입력 화면으로 음성 입력 적용 범위를 확대. 일정 화면에 복습 알림 생성 패널을 배치.
+- **확인:** 접근성·일정 UI 개선 PR이 병합되었고, PR에 프론트엔드 검사와 테스트 결과가 기록되어 있습니다.
+
+[서비스 보기](https://sagaksagak-smart-edu.vercel.app/) · [접근성·일정 개선 PR](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/pull/209)
+
 #### [Boothlock Server](https://github.com/hong0527/boothlock-server) · 축제 부스 QR 주문 서버
 
 - **목표:** 짧은 기간 운영하는 축제 부스의 계정과 부스 설정을 관리하는 서버.
@@ -36,7 +48,6 @@
 
 ### 다른 협업 프로젝트
 
-- **[사각사각](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform)** — 학습 관리 앱의 글자 크기·읽어주기·음성 입력 적용 범위와 일정 UI 개선. [서비스 보기](https://sagaksagak-smart-edu.vercel.app/) · [PR](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/pull/209)
 - **[Living Visetos](https://github.com/woohyun212/living-visetos)** — 사용자 움직임·리듬·색상을 반영하는 개인화 패턴 생성 엔진 구현. [PR](https://github.com/woohyun212/living-visetos/pull/2)
 - **[Data Communication](https://github.com/He6venly/Data_Communication)** — 줄 단위 JSON 소켓 프로토콜, 노드별 로그, Worker 간 P2P 작업 전송 구현. [통신 PR](https://github.com/He6venly/Data_Communication/pull/1) · [P2P PR](https://github.com/He6venly/Data_Communication/pull/7)
 - **[Image Processing Team 7](https://github.com/Pongchi/ImageProcessing_Team7)** — 이미지 캡셔닝 모델 학습·평가 코드와 Attention 시각화 작업. [커밋](https://github.com/Pongchi/ImageProcessing_Team7/commit/de733d7d759147a2af515a2968b30650c12cb87d)
