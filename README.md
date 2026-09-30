@@ -18,9 +18,11 @@
 
 #### [사각사각](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform) · 학습 관리 플랫폼의 접근성·일정 개선
 
-[![사각사각 팀 프로젝트의 화면 보기 설정: 글자 크기, 돋보기, 고대비, 읽어주기, 음성 입력](https://raw.githubusercontent.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/main/screenshots/accessibility-settings/20260603-020-accessibility-settings-screen.png)](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/blob/main/screenshots/accessibility-settings/20260603-020-accessibility-settings-screen.png)
+[![사각사각 실제 배포 서비스: 접근성 설정, 고대비, 학습 일정과 칸반 상태 변경](assets/sagaksagak-desktop-demo.gif)](https://sagaksagak-smart-edu.vercel.app/)
 
-팀 프로젝트에 기록된 접근성 설정 화면. 글자 크기, 돋보기, 고대비, 읽어주기, 음성 입력을 한곳에서 확인할 수 있습니다.
+시연 계정으로 직접 실행한 PC 화면(16:9): 접근성 설정·고대비 적용 → 학습 일정 등록 확인 → 일정과 연결한 칸반 태스크의 TODO → IN_PROGRESS → DONE 변경.
+
+[기존 접근성 설정 기록 화면](https://github.com/jeongiryang/SoftwareEngineering_team15_project_-Smart-Edu-Platform/blob/main/screenshots/accessibility-settings/20260603-020-accessibility-settings-screen.png)
 
 - **목표:** 학습 계획·기록·복습을 이어 주는 앱을 더 다양한 사용자가 편하게 사용할 수 있도록 개선.
 - **맡은 작업:** 글자 크기·고대비·초등학생 친화 설정을 로그인 후 전체 화면에 적용. 본문 텍스트 읽어주기와 전역 `전체 읽기`를 정리하고, 주요 입력 화면으로 음성 입력 적용 범위를 확대. 일정 화면에 복습 알림 생성 패널을 배치.
