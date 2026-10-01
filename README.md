@@ -70,7 +70,16 @@
 
 ### 다른 협업 프로젝트
 
-- **[Image Processing Team 7](https://github.com/Pongchi/ImageProcessing_Team7)** — 이미지 캡셔닝 모델 학습·평가 코드와 Attention 시각화 작업. [커밋](https://github.com/Pongchi/ImageProcessing_Team7/commit/de733d7d759147a2af515a2968b30650c12cb87d)
+#### [Image Processing Team 7](https://github.com/Pongchi/ImageProcessing_Team7) · 이미지 캡셔닝과 Attention 시각화
+
+[![Image Processing Team 7의 실제 저장된 실험 기록: 네 가지 설정의 평가 점수와 생성 캡션](assets/image-processing-experiment-results.png)](https://github.com/Pongchi/ImageProcessing_Team7/blob/master/experiments.md)
+
+**저장된 실험 결과(16:9)** — 모델·학습률 설정 4종의 BLEU-4·METEOR·CIDEr-D와 생성 캡션을 정리했습니다. 기존 결과 파일을 시각화한 정적 이미지입니다.
+
+- **맡은 작업:** Beam Search 추론, 평가 지표 계산, 단어별 Attention 히트맵과 샘플 통합 시각화 구현.
+
+[실험 기록](https://github.com/Pongchi/ImageProcessing_Team7/blob/master/experiments.md) · [생성 캡션](https://github.com/Pongchi/ImageProcessing_Team7/blob/master/results/generated_baseline2.csv) · [기여 커밋](https://github.com/Pongchi/ImageProcessing_Team7/commit/de733d7d759147a2af515a2968b30650c12cb87d)
+
 - **[Nuguri](https://github.com/Gongdang0314/nuguri)** — C 콘솔 게임의 점프·충돌 오류와 Windows 화면 출력 성능 개선. [커밋](https://github.com/Gongdang0314/nuguri/commit/2d8d2cf05207a56ca1b51a0392ff4f824027607f)
 - **[Diablo](https://github.com/Gongdang0314/diablo)** — C 텍스트 게임의 퀘스트·입력 처리와 실행 오류 수정. [커밋 기록](https://github.com/Gongdang0314/diablo/commits/main/?author=unknownamed)
 - **[Makepic](https://github.com/Gongdang0314/makepic)** — 텍스트 기반 그림판 팀 과제.
