@@ -72,9 +72,20 @@
 
 #### [Image Processing Team 7](https://github.com/Pongchi/ImageProcessing_Team7) · 이미지 캡셔닝과 Attention 시각화
 
+[![원본 코드를 실행한 이미지 캡셔닝 시연: 강아지와 기차 사진의 캡션 생성과 단어별 Attention](assets/image-processing-attention-demo.gif)](docs/image-processing-demo.md)
+
+**실제 코드 실행 GIF(16:9)** — 이미지 입력 → Beam Search 캡션 생성 → 단어별 Attention 확인. 공개 사진 64장으로 소규모 재학습하고, 학습에 사용한 사진에서 동작을 확인한 시연입니다.
+
+[시연 조건·실행 기록](docs/image-processing-demo.md) · [정지 이미지](assets/image-processing-attention-demo.png)
+
+<details>
+<summary>기존 실험 결과 비교</summary>
+
 [![Image Processing Team 7의 실제 저장된 실험 기록: 네 가지 설정의 평가 점수와 생성 캡션](assets/image-processing-experiment-results.png)](https://github.com/Pongchi/ImageProcessing_Team7/blob/master/experiments.md)
 
 **저장된 실험 결과(16:9)** — 모델·학습률 설정 4종의 BLEU-4·METEOR·CIDEr-D와 생성 캡션을 정리했습니다. 기존 결과 파일을 시각화한 정적 이미지입니다.
+
+</details>
 
 - **맡은 작업:** Beam Search 추론, 평가 지표 계산, 단어별 Attention 히트맵과 샘플 통합 시각화 구현.
 
